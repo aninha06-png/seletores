@@ -1,0 +1,42 @@
+/* Configuração geral */
+.quadrado {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+/* Cor vermelha */
+.vermelho {
+    background-color: red;
+}
+
+/* Cor azul */
+.azul {
+    background-color: #00aeef;
+}
+
+/* Cor verde */
+.verde {
+    background-color: #00b050;
+}
+
+/* Cor amarela */
+.amarelo {
+    background-color: yellow;
+}
+
+/* Bordas mais escuras nos cantos */
+#canto1,
+#canto2,
+#canto3,
+#canto4 {
+    border: 1px solid black;
+}
+
+/* Organização dos quadrados */
+.container {
+    width: 480px;
+    font-size: 0;
+}
